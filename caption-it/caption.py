@@ -40,7 +40,7 @@ from tqdm import tqdm
 
 
 vocab = np.load(
-    'D:\\University\\ImageCaptioning\\caption-it\\vocab.npy', allow_pickle=True)
+    'C:\\KnowLegde\\KLTN\\Project\\Image-Captioning\\caption-it\\vocab.npy', allow_pickle=True)
 vocab = vocab.item()
 inv_vocab = {v: k for k, v in vocab.items()}
 
@@ -74,7 +74,7 @@ model = Model(inputs=[image_model.input, language_model.input], outputs=out)
 model.compile(loss='categorical_crossentropy',
               optimizer='RMSprop', metrics=['accuracy'])
 model.load_weights(
-    'D:\\University\\ImageCaptioning\\caption-it\\model_weights.h5')
+    'C:\\KnowLegde\\KLTN\\Project\\Image-Captioning\\caption-it\\model_weights.h5')
 
 print("MODEL LOADED")
 
