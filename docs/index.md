@@ -1,5 +1,5 @@
 # Requirements
 
-- [Requirement 1](rq1.md.md)
-- [Requirement 2](rq2.md.md)
-- [Requirement 3](README.md.md)
+- [Requirement 1](/docs/rq1.md)
+- [Requirement 2](/docs/rq2.md)
+- [Requirement 3](/docs/rq2.md)
